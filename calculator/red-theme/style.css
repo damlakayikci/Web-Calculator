@@ -1,0 +1,75 @@
+:root {
+  --button-bg: rgba(241, 228, 228, 0.912);
+}
+input[type="button"] {
+  border-radius: 100px;
+  background-color: var(--button-bg);
+  color: black;
+  width: 100;
+  height: 100;
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  border-width: 1px;
+  border-color: red;
+}
+input[type="button-2"] {
+  border-radius: 100px;
+  background-color: var(--button-bg);
+  color: black;
+  width: 460;
+  height: 100;
+  font-family: "Times New Roman", Times, serif;
+  font-size: xx-large;
+  text-align: center;
+  border-width: 1px;
+  border-color: red;
+}
+
+input[type="text"] {
+  border-radius: 10px;
+  text-align: right;
+  background-color: rgb(221, 64, 64);
+  border-collapse: collapse;
+  color: white;
+  border-color: rgb(90, 87, 87);
+  width: 100%;
+  height: 200;
+  font-size: 80px;
+  font-weight: lighter;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 0.5px 0 black;
+  border-width: 2px;
+  border-color: rgb(160, 3, 3);
+}
+
+table {
+  width: 80;
+  height: 80;
+  margin: auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.199);
+  border-radius: 1em;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+table tr {
+  background-color: #fff;
+  color: #223;
+}
+table th,
+table td {
+  padding: 12px 12px;
+}
+table,
+tr,
+td {
+  border: none;
+}
+/* td {
+  border-color: linear-gradient(to top left, #28b487, #7dd56f);
+} */
+
+body {
+  background: linear-gradient(to top left, rgb(236, 159, 159) 0%, #f9e2e2 100%);
+}
