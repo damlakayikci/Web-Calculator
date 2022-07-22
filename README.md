@@ -1,2 +1,3 @@
 # Web-Calculator
-A basic web calculator
+
+🧮 A basic web calculator I styled
